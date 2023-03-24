@@ -27,8 +27,16 @@ document.body.addEventListener("wheel", function (e) {
     game.style.backgroundColor = "orange"
 })
 document.addEventListener("keydown", e => {
-    switch (game){
-        case "r":
-        game.style.backgroundColor = "red";
+    if( e.key === 'r'){
+        game.style.backgroundColor = "red";   
+    }else if( e.key ==='y'){
+        game.style.backgroundColor = 'yellow'
+    }else if( e.key ==='g'){
+        game.style.backgroundColor = 'green'
+    }else if(e.key === 'o'){
+        game.style.backgroundColor= 'orange'
+    }else if( e.key=== 'b'){
+        game.style.backgroundColor= 'blue'
     }
+      
 })

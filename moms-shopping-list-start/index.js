@@ -1,15 +1,16 @@
 const form = document.getElementById('add-todo');
 const list = document.getElementById('list');
 
+// Overall description of this block of code
 form.addEventListener("submit", (e) => {
     e.preventDefault()
 
-    const input = document.getElementById('title');
+    const input = document.getElementById('title');//Specific description of this line of code
     
     const newText = document.createElement('div');
     newText.textContent= input.value;
     
-    const newItem = document.createElement('li');
+    const newItem = document.createElement('li');//creating a new element list item and assigning it to a variable "newItem"
 
 
     const deleteButton = document.createElement('button');
