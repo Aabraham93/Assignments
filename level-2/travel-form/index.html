@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="userInfo">
+        
+        <div class="customerBox" id="userName">
+        First name:<input type="text" name="firstName" placeholder="First-Name">
+        <br>
+        Last name:<input type="text" name="lastName" placeholder="Last-Name">
+        </div>
+        
+        <br>
+        
+        <div class="ageBox">
+        Age: <input type="number" name="age">
+        </div>
+        
+        <br>
+        <div class="genderBox">
+        Male: <input type="radio" name="gender" value="male">
+        Female: <input type="radio" name="gender" value="female">
+        </div>
+        
+        <br>
+        
+        <div class="locationBox">
+        Locations:<select name="locations">
+            <option value="dubai">Dubai</option>
+            <option value="italy">Italy</option>
+            <option value="london">London</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div class="dietBox">
+        Dietary restrictions:
+        Gluten-free: <input type="checkbox" name="food" value="glutenFree">
+        Vegan: <input type="checkbox" name="food" value="vegan">
+        No Preference: <input type="checkbox" name="food" value="noPreference">
+        </div>
+        
+        <br>
+        
+        <button type="submit" id="submit">SUBMIT</button>
+
+
+
+    </form>
+    
+    <script src="app.js"></script>
+</body>
+</html>

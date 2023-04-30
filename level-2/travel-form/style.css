@@ -1,0 +1,32 @@
+html,body,head{
+    background-color: brown;
+    margin:10px;
+}
+
+.customerBox{
+    background-color: blue;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ageBox{
+    background-color: chartreuse;
+    font-size: 50px;
+}
+
+.genderBox{
+    background-color: crimson;
+    font-size: 50px;
+}
+
+.locationBox{
+    background-color:aqua;
+    font-size: 50px;
+}
+
+.dietBox{
+    background-color:gold;
+    font-size: 50px;
+
+}
+

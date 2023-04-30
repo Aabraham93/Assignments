@@ -1,0 +1,41 @@
+html,head,body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 15px;
+    height:100%;
+}
+/* #entire{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:auto ;
+} */
+.addition {
+    text-align: center;
+    padding: 40px;
+    border: 5px solid green;
+    background-color: burlywood;
+    color: white; 
+    /* grid-column: 1/2;
+    grid-row: 1/-1; */
+}
+
+.subtraction {
+    text-align: center;
+    padding: 40px;
+    border: 5px solid blue;
+    background-color: rgb(35, 104, 15);
+    color:black;
+    /* grid-column: 2/3;
+    grid-row: 1/-1; */
+}
+
+.multiplication{
+    text-align: center;
+    padding: 40px;
+    border: 5px solid yellowgreen;
+    background-color:blueviolet;
+    color:darkgoldenrod;
+    /* grid-column: 3/4;
+    grid-row: 1/-1; */
+    
+}
